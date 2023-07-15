@@ -1,0 +1,177 @@
+li{
+    text-decoration: none;
+}
+
+button{
+    text-decoration: none;
+} 
+
+.navbar{
+    background: rgb(14, 12, 12); font-family: Calibri; padding-right: 15px; padding-left: 15px;
+}
+
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+
+.logo a{
+    font-size: 35px; font-weight: 600; color: white; 
+}
+
+li{
+    list-style: none; display: inline-block;
+}
+
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+
+button{
+    background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+}
+
+button a{
+    color: white; font-weight: bold; font-size: 15px;
+}
+
+.introsec {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    text-align: center;
+    /*width: 50px;*/
+}
+
+.introsec{
+    padding: 10px;
+    margin: 10px;
+    flex: 100%;
+    border-radius: 10px;
+    
+}
+
+.header {
+    background: lightblue;
+    height: 400px;
+    width: 1400px;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.me{
+    color: red;
+}
+
+.m{
+    font-style: italic;
+}
+
+.y{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.book{
+    font-style: italic;
+}
+
+.bestsec {
+    background-color: blanchedalmond;
+}
+
+.you {
+    text-align: center;
+    margin-left: 40px;
+    padding-left: 500px;
+}
+
+.mine{
+    padding-left: 400px;
+    padding-top: 100px;
+}
+.image {
+    padding-right: 900px;
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-top:  5px;
+    height: 80px;
+    width: 50px;
+}
+
+
+/*
+.main{
+    text-align: left;
+    background: rgb(218, 10, 10);
+    text-align: center;
+    height: 300px;
+    font-size: 50px;
+} */
+.main{
+    padding-top: 100px;
+    text-align: center;
+    height: 300px;
+    font-size: 50px;
+} 
+
+/*@media all and (min-width: 800px){
+    .main{
+        flex: 3;
+    }
+
+    .main{
+        order: 2;
+    }
+}*/
+
+.new{
+    
+    background-color: blanchedalmond;
+    text-align: center;
+    height: 200px;
+    font-size: 40px;
+}
+
+.recom{
+    background-color: azure;
+}
+
+.com{
+    text-align: center;
+    background-color: azure;
+    height: 200px;
+    font-size: 40px;
+}
+
+.text{
+    text-align: center;
+}
+
+
+.view{
+    background-color: beige;
+}
+
+.head{
+    text-align: center;
+    font-style: italic;
+}
+
+.contact{
+    background-color: whitesmoke;
+    
+}
+.good{
+    text-align: right;
+    text-decoration: wavy;
+    background-color: blue;
+}
+
+
+
+.puzzle{
+    text-align: left;
+    background: white;
+    text-align: center;
+    height: 300px;
+    font-size: 40px;
+}
